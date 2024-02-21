@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0px 0px;
+
+
+}
+header{
+    background-color:rgb(226, 66, 66);
+    text-align: center;
+    padding: 5%;
+}
+nav{
+    background-color: white;
+    float: left;
+    height: 400px;
+    width: 20%;
+    padding-top: 20px; 
+}
+nav li{
+    list-style-type: none;
+}
+nav ul{
+  margin: 0%;
+  padding: 0%;
+}
+
+article{
+    background-color: white
+    padding: 5%;
+    width: 80%;
+    float: left;
+}
+footer{
+    background-color:  white;
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
+.btn1{
+  display: inline-block;
+  background-color: #a30505;
+  color: #fff;
+    padding: 10px 20px;
+    width: 80%;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+  
+
+}
+.btn1:hover{
+    background-color: lightgray;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .card-text {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .card-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #a30505;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #333;
+  }
+  .doboz{
+    display: flex;
+  }
+ 
